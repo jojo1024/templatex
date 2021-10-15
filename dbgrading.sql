@@ -27,6 +27,9 @@ SET time_zone = "+00:00";
 -- Table structure for table `ay`
 --
 
+CREATE DATABASE `dbgrading`;
+USE `dbgrading`;
+
 CREATE TABLE `ay` (
   `AY_ID` int(11) NOT NULL,
   `ACADYR` varchar(40) NOT NULL
@@ -574,6 +577,7 @@ CREATE TABLE `tblstudent` (
 --
 
 INSERT INTO `tblstudent` (`S_ID`, `IDNO`, `FNAME`, `LNAME`, `MNAME`, `SEX`, `BDAY`, `BPLACE`, `STATUS`, `AGE`, `NATIONALITY`, `RELIGION`, `CONTACT_NO`, `HOME_ADD`, `EMAIL`) VALUES
+(16, 11111111, 'Admin', 'Admin', 'Admin', 'M', '1995-06-14', 'Butuan City', 'Single', 19, 'Ivorian', 'Evangelic', '09099754195', 'Brgy Camugao Kabankalan City', 'jesterramy14@yahoo.com'),
 (17, 20004277, 'JESTERRAMY', 'DA-ANOY ', 'PATETE', 'F', '1995-06-14', 'Butuan City', 'Single', 19, 'Filipino', 'roman catholic', '09099754195', 'Brgy Camugao Kabankalan City', 'jesterramy14@yahoo.com'),
 (18, 20004207, 'LHENYL GRACE', 'AMPARADO', 'ODASCO', 'F', '1995-08-27', 'Lancaan Dasmarinas Cavite', 'Single', 18, 'Filipino', 'roman catholic', '09263621995', 'Yao Yao Cauayan negros Occidental', 'lhenylgraceamparado@yahoo.com'),
 (19, 20004180, 'MYLENE', 'FERRER', 'BALUCAN', 'F', '1972-05-22', 'brgy.cayhagan,sipalay city,neg.occ.', 'Single', 18, 'Filipino', 'roman catholic', '091071717257', 'brgy.cayhagan,sipalay city,neg.occ.', 'macaferrer@yahoo.com'),
